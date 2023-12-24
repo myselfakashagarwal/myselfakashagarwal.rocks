@@ -4,13 +4,42 @@
     <title>myselfakashagarwal.rocks</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+	<link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    <canvas class="webgl"></canvas>
-    <script src="https://unpkg.com/current-device/umd/current-device.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/96/three.min.js"></script>
-    <script src="requirements/orbitControls.js"></script>
-    <script src="index.js"></script>
+<div id="three"></div>
+
+<div id="content">
+    <div id="homeDiv">
+        <h1 id="homeDivGreet"><br><br>Hello,I'm</h1>
+        <h1 id="homeDivName">Akash</h1>
+        <h1 id="homeDivTitle">SysOps · CloudOps · DevOps</h1>
+    </div>
+
+    <div id="aboutDiv">
+        <h1 id="aboutDivTitle"><x style="color:rgb(42, 143, 193)">#</x>About<x style="color:rgb(42, 143, 193)">Me</x> </h1>
+        <p id="aboutDivContent">
+            I am a SysOps engineer aspiring to become a <x style="color:rgb(42, 143, 193)">DevOps/SRE</x> engineer. I am a coder who loves <x style="color:rgb(42, 143, 193)">experimenting</x> with skills, integrating, and implementing solutions in the most creative ways possible.<br><br>I enjoy creating problems that are unknown because there is glory in solving challenges with unforeseen conditions. The real enthusiasm arises when facing unknown conditions and conquering them becomes the ultimate fun. <br> <br>
+            <x style="color:rgb(166, 134, 236)">I am not like bots who codes mechanicially I am a coder pushed by the satisfaction of the holiness of my code.</x> <br> <br>
+        </p>
+    </div>
+
+    <div id="skillsDiv">
+        <h1 id="skillsDivTitle"><x style="color:rgb(42, 143, 193)">#</x>Skills</h1>
+        <p id="skillsDivParagraph">
+        <x style="color:rgb(42, 143, 193)"> DevOps → </x>GNU/Linux, System Administration, Shell-Scripting, Docker, Jenkins, AWS, Git, GitLab<br>
+        <x style="color:rgb(42, 143, 193)"> Programming → </x> Java SE 8, C, C++ <br>
+        <x style="color:rgb(42, 143, 193)"> Web → </x> HTML 5, CSS 3, JavaScript ESE 6, Three.js <br>
+        <x style="color:rgb(42, 143, 193)"> Other → </x> Networking, Operating Systems, Content Writing <br>
+        </p>
+    </div>
+</div>
+
+<script src="https://unpkg.com/current-device/umd/current-device.min.js"></script>
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/three.js/96/three.min.js"></script>
+<script src="requirements/orbitControls.js"></script>
+<script src="requirements/ascii-renderer.js"></script>
+<script src="index.js"></script>
 </body>
 </html>
