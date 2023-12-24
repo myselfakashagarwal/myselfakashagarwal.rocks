@@ -18,7 +18,7 @@ var fontSize = 10;
 var globeSize = 280;
 if(device == "desktop")
 {
-  fontSize = 20;
+  fontSize = 15;
   globeSize = 260;
 }
 
@@ -160,19 +160,43 @@ const aboutDivContent = document.getElementById('aboutDivContent');
 const skillsDiv = document.getElementById('skillsDiv');
 const skillsDivTitle = document.getElementById('skillsDivTitle');
 const skillsDivParagraph = document.getElementById('skillsDivParagraph');
+const projectsDiv = document.getElementById('projectsDiv');
+const projectsDivTitle = document.getElementById('projectsDivTitle');
+const contactDiv = document.getElementById('contactDiv');
+const contactDivTitle = document.getElementById('contactDivTitle');
+const projectsDivListItemDivTitle = document.querySelectorAll('.projectsDivListItemDivTitle');
+const projectsDivListItemDivContent = document.querySelectorAll('.projectsDivListItemDivContent');
+const contactDivList = document.getElementById('contactDivList');
+const contactDivListItemLink = document.querySelectorAll('.contactDivListItemLink');
 if(device == "desktop" )
 {
   homeDivGreet.style.fontSize = "100px";
   homeDivName.style.fontSize = "120px";
   homeDivTitle.style.fontSize = "50px";
   skillsDiv.style.top = homeDiv.clientHeight + aboutDiv.clientHeight + 100 + "px";
+  projectsDiv.style.top = homeDiv.clientHeight + aboutDiv.clientHeight + skillsDiv.clientHeight - 100 + "px";
+  contactDiv.style.top = projectsDiv.clientHeight/1.32 + "px";
 
 }
 else
 {
   aboutDivTitle.style.fontSize = "30px";
-  aboutDivContent.style.fontSize = "20px";
+  aboutDivContent.style.fontSize = "16px";
+  skillsDiv.style.marginTop = "100px";
   skillsDivTitle.style.fontSize = "30px";
-  skillsDivParagraph.style.fontSize = "20px";
+  skillsDivParagraph.style.fontSize = "16px";
+  projectsDivTitle.style.fontSize = "30px";
+  contactDivTitle.style.fontSize = "30px";
   skillsDiv.style.top = homeDiv.clientHeight + aboutDiv.clientHeight + 200 + "px";
+  projectsDiv.style.top = homeDiv.clientHeight + aboutDiv.clientHeight + skillsDiv.clientHeight -100 + "px";
+  contactDiv.style.top = projectsDiv.clientHeight/2.3 + "px";
+  for(var i = 0; i < projectsDivListItemDivTitle.length; i++)
+  {
+    projectsDivListItemDivTitle[i].style.fontSize = "30px";
+    projectsDivListItemDivContent[i].style.fontSize = "16px";
+    contactDivListItemLink[i].style.fontSize = "15px";
+  }
+  contactDivList.style.display = "inline-block";
+
+
 }

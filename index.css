@@ -49,7 +49,7 @@ body {
     font-size: 40px;
     font-family: monospace;
     margin-left: 30px;
-    color: rgb(234, 242, 192);
+    color:khaki;
     text-shadow: 10px 10px 10px black;
 }
 #homeDivName
@@ -58,7 +58,7 @@ body {
     font-family:sans-serif;
     margin-left: 30px;
     text-shadow: 1px 1px 1px rgb(135, 208, 175);
-    color: rgb(135, 221, 175);
+    color:paleturquoise;
     text-shadow: 10px 10px 10px black;
 }
 #homeDivTitle
@@ -66,7 +66,7 @@ body {
     font-size: 20px;
     font-family: sans-serif;
     margin-left: 30px;
-    color: rgb(251, 251, 251);
+    color:palegreen;
     text-shadow: 10px 10px 10px black;
 }
 
@@ -87,12 +87,15 @@ body {
 }
 #aboutDivContent
 {
-    font-size: 35px;
+    font-size: 20px;
     font-family: monospace;
-    margin-left: 30px;
+    margin: 20px;
     color:white;
+    background-color: rgb(30, 29, 29);
     padding: 30px;
     line-height: 1.5;
+    border-radius: 10px;
+    
 }
 
 #skillsDiv
@@ -102,17 +105,121 @@ body {
 }
 #skillsDivTitle
 {
+    color: rgb(246, 248, 177);
     font-size: 80px;
     font-family: monospace;
     margin-left: 30px;
-    color: rgb(246, 248, 177);
     margin-top: 60px;
 }
 #skillsDivParagraph
 {
-    font-size: 35px;
+    color:white;
+    background-color: rgb(30, 29, 29);
+    font-size: 20px;
     font-family: monospace;
-    margin-left: 30px;
+    margin: 20px;
     padding: 30px;
     line-height: 1.5;
+    border-radius: 10px;
+    
 }
+
+#projectsDiv
+{
+    position: relative;
+    color: white;
+}
+
+#projectsDivTitle
+{
+    font-size: 80px;
+    font-family: monospace;
+    margin-left: 30px;
+    color: rgb(246, 248, 177);
+    margin-top: -60px;
+}
+
+#projectsDivList
+{
+   display: inline-block;
+   flex-wrap: nowrap;
+}
+
+.projectsDivListItem
+{
+  margin: 30px;
+  list-style: none;  
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.projectsDivListItemDiv
+{
+   padding: 20px;
+   background-color: rgb(30, 29, 29);
+}
+
+.projectsDivListItemDivTitle
+{
+   font-size: 50px;
+   font-family: monospace;
+    color:palegreen;
+    padding: 20px;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+.projectsDivListItemDivContent
+{
+    font-size: 20px;
+    font-family: monospace;
+    color:white;
+    margin-left: 20px;
+}
+
+.projectsDivListItemDivLink
+{
+  text-decoration: NONE;
+  font-size: 20px;
+    font-family: monospace;
+    color:palevioletred;
+    padding: 20px;
+    margin-top:40px;
+    margin-left: 10px;
+}
+
+#contactDiv
+{
+    position: relative;
+    color: white;
+}
+
+#contactDivTitle
+{
+    font-size: 80px;
+    font-family: monospace;
+    margin-left: 30px;
+    color: rgb(246, 248, 177);
+}
+#contactDivList
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contactDivListItem
+{
+    margin-top: 30px;
+    list-style: none;
+}
+.contactDivListItem a
+{
+    text-decoration: NONE;
+    font-size: 50px;
+    font-family: monospace;
+    color:palevioletred;
+    padding: 20px;
+}
+
+/*
+*/
