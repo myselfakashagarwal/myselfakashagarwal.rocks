@@ -182,7 +182,7 @@ else
 {
   aboutDivTitle.style.fontSize = "30px";
   aboutDivContent.style.fontSize = "16px";
-  skillsDiv.style.marginTop = "100px";
+  skillsDiv.style.marginTop = "70px";
   skillsDivTitle.style.fontSize = "30px";
   skillsDivParagraph.style.fontSize = "16px";
   projectsDivTitle.style.fontSize = "30px";
