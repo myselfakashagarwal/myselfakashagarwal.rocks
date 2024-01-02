@@ -70,6 +70,10 @@ body {
     text-shadow: 10px 10px 10px black;
 }
 
+/*
+    about
+*/
+
 #aboutDiv
 {
     position:absolute;
@@ -77,7 +81,7 @@ body {
     background-color: rgb(0, 0, 0);
     color: white;
 }
-#aboutDivTitle
+#aboutDivTitle,#contactDivTitle,#projectsDivTitle,#skillsDivTitle
 {
     font-size: 80px;
     font-family: monospace;
@@ -98,18 +102,16 @@ body {
     
 }
 
-#skillsDiv
+/*
+    skills
+*/
+
+#skillsDiv,#projectsDiv,#contactDiv
 {
     position: relative;
     color: white;
 }
-#skillsDivTitle
-{
-    color: rgb(246, 248, 177);
-    font-size: 80px;
-    font-family: monospace;
-    margin-left: 30px;
-}
+
 #skillsDivParagraph
 {
     color:white;
@@ -123,19 +125,9 @@ body {
     
 }
 
-#projectsDiv
-{
-    position: relative;
-    color: white;
-}
-
-#projectsDivTitle
-{
-    font-size: 80px;
-    font-family: monospace;
-    margin-left: 30px;
-    color: rgb(246, 248, 177);
-}
+/* 
+    projects
+*/
 
 #projectsDivList
 {
@@ -186,19 +178,10 @@ body {
     margin-left: 10px;
 }
 
-#contactDiv
-{
-    position: relative;
-    color: white;
-}
+/*
+    contact
+*/
 
-#contactDivTitle
-{
-    font-size: 80px;
-    font-family: monospace;
-    margin-left: 30px;
-    color: rgb(246, 248, 177);
-}
 #contactDivList
 {
   display: flex;
@@ -218,6 +201,3 @@ body {
     color:palevioletred;
     padding: 20px;
 }
-
-/*
-*/

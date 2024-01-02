@@ -175,7 +175,7 @@ if(device == "desktop" )
   homeDivTitle.style.fontSize = "50px";
   skillsDiv.style.top = homeDiv.clientHeight + aboutDiv.clientHeight + 180 + "px";
   projectsDiv.style.top = homeDiv.clientHeight + aboutDiv.clientHeight + skillsDiv.clientHeight - 40 + "px";
-  contactDiv.style.top = projectsDiv.clientHeight - 70 + "px";
+  contactDiv.style.top = projectsDiv.clientHeight - 140 + "px";
 
 }
 else
